@@ -1,0 +1,105 @@
+body{
+    background-image: url(./imagens/fundo\ folhas.png);
+    background-size: cover; /* ajusta a imagem para cobrir toda a tela */
+    background-repeat: no-repeat; /* impede que a imagem seja repetida */
+    background-attachment: fixed; /* fixa a imagem no fundo */
+    height: 100vh; /* define a altura do corpo para 100% da tela */
+    margin: 0,; /* remove margem */
+}
+.imagembemvindo {
+    display: block;
+    position: static;
+    top: 4cm;
+    left: 7cm;
+    padding: 0px;
+    margin: 0px;
+   
+}
+.botao {
+    background-color: #4CAF50; /* cor de fundo do botão */
+    color: #ffffff; /* cor do texto do botão */
+    border: ridge; /* sem borda */
+    padding: 15px 23px; /* espaçamento interno do botão */
+    font-size: 18px; /* tamanho do texto do botão */
+    cursor: pointer; /* ponteiro do mouse */
+    margin: 1cm;
+ }
+  
+    .botao:hover {
+    background-color: #239927; /* cor de fundo do botão ao passar o mouse */
+}
+
+.galery{
+    width: 850px;
+    height: 400;
+    border: 5px;
+    overflow: hidden;
+}
+.galery .fotos{
+    width: 700%;
+    animation-name: animacao;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+.galery .fotos img {
+    width:10%;
+}
+
+@keyframes animacao {
+    0% {margin-left: 0;}
+    10% {margin-left: 0;}
+    15% {margin-left: -100%;}
+    18% {margin-left: -100%;}
+    22% {margin-left: -200%;}
+    30% {margin-left: -200%;}
+    45% {margin-left: -300%;}
+    50% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+.texto1{
+  font-size: 28px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: hwb(132 92% 6%);
+  text-align: center;
+  background-color: #1d8740;
+
+}
+
+.texto2{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: hwb(132 92% 6%);
+    text-align: center;
+    background-color: #1d8740;
+  
+}
+
+.equipe{
+    display: flex;
+    position: static;
+    top: 4cm;
+    left: 7cm;
+    padding: 0px;
+    margin: 0px;
+}
+
+.bio{
+    font-size: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: hwb(132 92% 6%);
+    text-align: justify;
+    background-color: hwb(140 1% 59%);
+
+}
+
+
+.rodape{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f5f8f6;
+    text-align: center;
+    background-color: #239927;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}

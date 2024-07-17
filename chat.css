@@ -1,0 +1,168 @@
+body{
+    background-image: url(./imagens/fundo\ folhas.png);
+    background-size: cover; /* ajusta a imagem para cobrir toda a tela */
+    background-repeat: no-repeat; /* impede que a imagem seja repetida */
+    background-attachment: fixed; /* fixa a imagem no fundo */
+    height: 100vh; /* define a altura do corpo para 100% da tela */
+    margin: 0; /* remove margem */
+}
+
+.imagembemvindo {
+    display: block;
+    position: static;
+    top: 4cm;
+    left: 7cm;
+    padding: 0px;
+    margin: 100px;
+}
+
+.texto1 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #044b04;
+    text-align: center;
+}
+.texto2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hwb(120 0% 84%);
+    text-align: center;
+}
+
+.texto3 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(120, 100%, 2%);
+    text-align: center;
+}
+.cidades{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(2, 11, 2);
+    text-align: center;
+}
+
+#taruma{
+    background-image: url(./imagens/lixo\ eletronico.jpg);
+    height: 10; /* define a altura do corpo para 100% da tela */
+    margin: 50; /* remove margem */
+}
+
+
+.botao {
+    background-color: #4CAF50; /* cor de fundo do botão */
+    color: #ffffff; /* cor do texto do botão */
+    border: ridge; /* sem borda */
+    padding: 25px 25px; /* espaçamento interno do botão */
+    font-size: 25px; /* tamanho do texto do botão */
+    cursor: pointer; /* ponteiro do mouse */
+    margin: 1cm;
+ }
+  
+    .botao:hover {
+    background-color: #239927; /* cor de fundo do botão ao passar o mouse */
+
+
+}
+
+
+
+  
+.box-questions{
+    margin-top: 3rem;
+    background-color: var(--white);
+    color: var(--dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 800px;
+    width: 600px;
+    border-radius: 10px;
+    text-align: center;
+}
+  
+.header{
+    background-color: var(--purple);
+    color: var(--white);
+    border-radius: 10px 10px 0 0;
+    font-size: 1.4rem;
+}
+  
+.footer{
+    background-color: var(--purple);
+    border-radius: 0 0 10px 10px;
+    padding: 1rem;
+    }
+  
+    input{
+    width: 50%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    }
+  
+  button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  button:hover{
+    cursor: pointer;
+    transition: .4s;
+    background-color: var(--gray);
+}
+  
+#history{
+    padding: 1rem;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 100%;
+}
+  
+.box-my-message{
+    display: flex;
+    justify-content: flex-end;
+}
+  
+.box-response-message{
+    display: flex;
+    justify-content: flex-start;
+}
+  
+.my-message,
+.response-message{
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
+    margin: 0;
+}
+  
+.my-message{
+    text-align: right;
+    background-color: var(--gray);
+}
+  
+.response-message{
+    text-align: left;
+    background-color: var(--gray2);
+}
+
+
+
+
+.rodape{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f5f8f6;
+    text-align: center;
+    background-color: #239927;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}

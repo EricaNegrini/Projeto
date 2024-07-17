@@ -1,0 +1,77 @@
+body{
+    background-image: url(./imagens/fundo\ folhas.png);
+    background-size: cover; /* ajusta a imagem para cobrir toda a tela */
+    background-repeat: no-repeat; /* impede que a imagem seja repetida */
+    background-attachment: fixed; /* fixa a imagem no fundo */
+    height: 100vh; /* define a altura do corpo para 100% da tela */
+    margin: 0; /* remove margem */
+}
+
+.imagembemvindo {
+    display: block;
+    position: static;
+    top: 4cm;
+    left: 7cm;
+    padding: 0px;
+    margin: 100px;
+}
+
+.texto1 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #044b04;
+    text-align: center;
+}
+.texto2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hwb(120 0% 84%);
+    text-align: center;
+}
+
+.texto3 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(120, 100%, 2%);
+    text-align: center;
+}
+.cidades{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(2, 11, 2);
+    text-align: center;
+}
+
+#taruma{
+    background-image: url(./imagens/lixo\ eletronico.jpg);
+    height: 10; /* define a altura do corpo para 100% da tela */
+    margin: 50; /* remove margem */
+}
+
+
+.botao {
+    background-color: #4CAF50; /* cor de fundo do botão */
+    color: #ffffff; /* cor do texto do botão */
+    border: ridge; /* sem borda */
+    padding: 25px 25px; /* espaçamento interno do botão */
+    font-size: 25px; /* tamanho do texto do botão */
+    cursor: pointer; /* ponteiro do mouse */
+    margin: 1cm;
+ }
+  
+    .botao:hover {
+    background-color: #239927; /* cor de fundo do botão ao passar o mouse */
+
+
+}
+
+.rodape{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f5f8f6;
+    text-align: center;
+    background-color: #239927;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
